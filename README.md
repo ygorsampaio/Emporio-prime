@@ -1,23 +1,33 @@
 # 🌿 Empório Prime — Next.js + Supabase
 
-> **Projeto Freelancer Real:** E-commerce de produtos naturais desenvolvido para uma loja local localizada no bairro de Peixinhos, em Olinda - PE, Brasil.
+> **Projeto Freelancer Real:** E-commerce de produtos naturais de alta performance, desenvolvido sob medida para uma loja local localizada no bairro de Peixinhos, em Olinda - PE, Brasil. O projeto foi estruturado com foco em velocidade de carregamento em dispositivos móveis, navegação fluida e gerenciamento dinâmico de estoque.
 
 ---
 
-## Stack
-- **Next.js 14** (App Router) — framework React com SSR/SSG
-- **TypeScript** — tipagem estática
-- **Tailwind CSS** — utility-first CSS
-- **Framer Motion** — animações
-- **Zustand** — estado global do carrinho
-- **Supabase** — banco de dados PostgreSQL na nuvem
-- **Sonner** — notificações toast
+## 🚀 Funcionalidades Principais
+- **Catálogo Dinâmico:** Listagem de produtos naturais com filtros avançados por categorias, busca textual e ordenação inteligente.
+- **Carrinho de Compras Otimizado:** Gerenciamento de estado global rápido para adição, remoção e alteração de quantidade de itens.
+- **Arquitetura Híbrida (SSR/SSG):** Páginas estáticas para máxima indexação (SEO) aliadas a atualizações dinâmicas para dados de estoque.
+- **Banco de Dados Relacional:** Integração robusta com o Supabase para armazenamento seguro de produtos, categorias e pedidos.
+- **Interface Responsiva & Animada:** Layout totalmente adaptado para smartphones e enriquecido com animações fluidas para melhorar a experiência do usuário.
 
 ---
 
-## Como rodar
+## 🛠️ Stack Tecnológica
+- **Next.js 14** (App Router) — Framework React com renderização híbrida avançada.
+- **TypeScript** — Tipagem estática para maior segurança e escalabilidade do código.
+- **Tailwind CSS** — Estilização moderna baseada em classes utilitárias.
+- **Framer Motion** — Biblioteca de animações fluidas e interativas para componentes visuais.
+- **Zustand** — Gerenciador de estado global leve e performático para o carrinho de compras.
+- **Supabase** — Backend-as-a-Service integrado com banco de dados PostgreSQL na nuvem.
+- **Sonner** — Sistema de notificações *toast* elegantes e limpas.
+
+---
+
+## 💻 Como rodar o projeto localmente
 
 ### 1. Instalar dependências
+```bash
 npm install
 
 ### 2. Configurar variáveis de ambiente
