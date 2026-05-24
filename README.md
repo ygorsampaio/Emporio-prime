@@ -1,5 +1,9 @@
 # 🌿 Empório Prime — Next.js + Supabase
 
+> **Projeto Freelancer Real:** E-commerce de produtos naturais desenvolvido para uma loja local localizada no bairro de Peixinhos, em Olinda - PE, Brasil.
+
+---
+
 ## Stack
 - **Next.js 14** (App Router) — framework React com SSR/SSG
 - **TypeScript** — tipagem estática
@@ -14,36 +18,27 @@
 ## Como rodar
 
 ### 1. Instalar dependências
-```bash
 npm install
-```
 
 ### 2. Configurar variáveis de ambiente
-```bash
 cp .env.local.example .env.local
 # Edite .env.local com suas credenciais do Supabase
-```
 
 ### 3. Configurar banco de dados (opcional)
 No painel do Supabase → SQL Editor, rode o arquivo `supabase/schema.sql`.
 Sem isso, a loja usa os produtos locais em `lib/products.ts`.
 
 ### 4. Rodar em desenvolvimento
-```bash
 npm run dev
 # Acesse http://localhost:3000
-```
 
 ### 5. Build de produção
-```bash
 npm run build
 npm start
-```
 
 ---
 
 ## Estrutura
-```
 app/
   layout.tsx          # Layout raiz: fontes, providers globais
   page.tsx            # Página principal (Server Component)
@@ -66,12 +61,11 @@ lib/
 types/index.ts        # Interfaces TypeScript
 supabase/schema.sql   # Schema + seed do banco
 public/images/        # Fotos dos produtos
-```
 
 ---
 
-## Deploy (Vercel)
+## Deploy (Vercel / Netlify)
 1. Suba o projeto no GitHub
-2. Conecte ao Vercel
-3. Adicione as env vars no painel do Vercel
+2. Conecte à sua plataforma de hospedagem (Vercel ou Netlify)
+3. Adicione as variáveis de ambiente (`env vars`) no painel da plataforma
 4. Deploy automático ✅
