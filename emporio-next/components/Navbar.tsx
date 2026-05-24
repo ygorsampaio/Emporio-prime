@@ -37,7 +37,7 @@ export default function Navbar({ activeCategory, onCategoryChange, onSearch }: N
 
   function handleSearch(value: string) {
     setSearchValue(value)
-    onSearch(value)
+    onSearch?.(value)
   }
 
   return (
